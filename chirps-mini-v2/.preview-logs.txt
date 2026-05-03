@@ -1,0 +1,22 @@
+
+> vite-react-typescript-starter@0.0.0 dev
+> vite --port 5173 --host 0.0.0.0
+
+
+  VITE v5.4.8  ready in 473 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://169.254.0.21:5173/
+Error: The following dependencies are imported but could not be resolved:
+
+  react-router-dom (imported by /home/user/chirps-mini-v2/src/App.tsx)
+  framer-motion (imported by /home/user/chirps-mini-v2/src/App.tsx)
+
+Are they installed?
+    at file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:50604:15
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///home/user/chirps-mini-v2/node_modules/vite/dist/node/chunks/dep-CDnG8rE7.js:50109:26
+12:00:38 AM [vite] Pre-transform error: Failed to resolve import "react-router-dom" from "src/App.tsx". Does the file exist?
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
